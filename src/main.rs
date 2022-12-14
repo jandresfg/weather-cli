@@ -19,4 +19,7 @@ fn main() {
         .expect("expected the body to be json");
 
     dbg!(response);
+    //TODO: print a pretty response from response
+    //TODO: use Clap
+    //TODO: use env file
 }
